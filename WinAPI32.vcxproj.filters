@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="GameNode.h" />
+    <ClInclude Include="MyFunc.h" />
+    <ClInclude Include="Object\Rect.h" />
+    <ClInclude Include="Object\Circle.h" />
+    <ClInclude Include="Singleton\SoundManager.h" />
+    <ClInclude Include="Singleton\SingletonBase.h" />
+    <ClInclude Include="Singleton\TimeManager.h" />
+    <ClInclude Include="Singleton\KeyManager.h" />
+    <ClInclude Include="MiniGame\Arka.h" />
+    <ClInclude Include="Object\Shader.h" />
+    <ClInclude Include="Singleton\CameraManager.h" />
+    <ClInclude Include="Object\Image.h" />
+    <ClInclude Include="Singleton\ImageManager.h" />
+    <ClInclude Include="Singleton\WriteManager.h" />
+    <ClInclude Include="Map\Map.h" />
+    <ClInclude Include="Map\MapTool.h" />
+    <ClInclude Include="Map\Tile.h" />
+    <ClInclude Include="Singleton\ObjectPool.h" />
+    <ClInclude Include="Character\Enemy.h" />
+    <ClInclude Include="Character\Player.h" />
+    <ClInclude Include="Character\CharacterManager.h" />
+    <ClInclude Include="MiniGame\Menu.h" />
+    <ClInclude Include="Singleton\SceneManager.h" />
+    <ClInclude Include="Singleton\MapManager.h" />
+    <ClInclude Include="Map\MapInfo.h" />
+    <ClInclude Include="MiniGame\Menu2.h" />
+    <ClInclude Include="Object\BulletManager.h" />
+    <ClInclude Include="Object\EnemyBullet.h" />
+    <ClInclude Include="MiniGame\BossStage.h" />
+    <ClInclude Include="Character\Boss.h" />
+    <ClInclude Include="MiniGame\Tutorial.h" />
+    <ClInclude Include="Map\TowerUp.h" />
+    <ClInclude Include="Object\Note.h" />
+    <ClInclude Include="Map\Cradit.h" />
+    <ClInclude Include="Object\PlayerBuillet.h" />
+    <ClInclude Include="Map\GameOver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinAPI32.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Object\Rect.cpp" />
+    <ClCompile Include="Object\Circle.cpp" />
+    <ClCompile Include="Singleton\SoundManager.cpp" />
+    <ClCompile Include="Singleton\TimeManager.cpp" />
+    <ClCompile Include="Singleton\KeyManager.cpp" />
+    <ClCompile Include="MiniGame\Arka.cpp" />
+    <ClCompile Include="Object\Shader.cpp" />
+    <ClCompile Include="Singleton\CameraManager.cpp" />
+    <ClCompile Include="Object\Image.cpp" />
+    <ClCompile Include="Singleton\ImageManager.cpp" />
+    <ClCompile Include="Singleton\WriteManager.cpp" />
+    <ClCompile Include="Map\Map.cpp" />
+    <ClCompile Include="Map\MapTool.cpp" />
+    <ClCompile Include="Map\Tile.cpp" />
+    <ClCompile Include="Character\Enemy.cpp" />
+    <ClCompile Include="Character\Player.cpp" />
+    <ClCompile Include="Character\CharacterManager.cpp" />
+    <ClCompile Include="MiniGame\Menu.cpp" />
+    <ClCompile Include="Singleton\SceneManager.cpp" />
+    <ClCompile Include="Singleton\MapManager.cpp" />
+    <ClCompile Include="Map\MapInfo.cpp" />
+    <ClCompile Include="MiniGame\Menu2.cpp" />
+    <ClCompile Include="Object\BulletManager.cpp" />
+    <ClCompile Include="Object\EnemyBullet.cpp" />
+    <ClCompile Include="MiniGame\BossStage.cpp" />
+    <ClCompile Include="Character\Boss.cpp" />
+    <ClCompile Include="MiniGame\Tutorial.cpp" />
+    <ClCompile Include="Map\TowerUp.cpp" />
+    <ClCompile Include="Object\Note.cpp" />
+    <ClCompile Include="Map\Cradit.cpp" />
+    <ClCompile Include="Object\PlayerBuillet.cpp" />
+    <ClCompile Include="Map\GameOver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Object\Basic.hlsl" />
+    <None Include="Object\Image.hlsl" />
+  </ItemGroup>
+</Project>
