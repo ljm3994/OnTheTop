@@ -1,29 +1,12 @@
-# README #
-
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+# OnTheTop
+OnTheTop 창작 게임입니다. 팀프로젝트로 제작 되었습니다.
+# 장르
+캐쥬얼 점프 게임
+# 기간
+2019.09.16 ~ 2019.09.22(1주)
+# 사용 라이브러리
+DirectX11, FMOD, IMGUI
+# 개발 인원
+2명
+# 담당 파트
+맵툴, 플레이어
